@@ -5,24 +5,14 @@ Este projeto automatiza o cálculo da Taxa de Lixo para a prefeitura local, reso
 ## Sobre o Projeto
 A aplicação recebe o tipo de imóvel e a metragem quadrada (m²), processa a base de cálculo específica e gera uma guia detalhada para o contribuinte.
 
-## Regras de Negócio
-/****************************************************************
-  TABELA DE REFERÊNCIA PARA CÁLCULO DE TAXA DE LIXO
- ****************************************************************
-  TIPO DE IMÓVEL                | VALOR R$ / M² | LIMITADOR M² |
- -------------------------------|---------------|--------------|
-  1. Terrenos (>= 250m²)        |     0,05      |     1500     | 
- -------------------------------|---------------|--------------|
-  2. Residenciais               |     0,13      |      300     | 
- -------------------------------|---------------|--------------|
-  3. Comércio (Rest./Mercados)  |     0,20      |      300     | 
- -------------------------------|---------------|--------------|
-  4. Demais Comércios           |     0,13      |      300     |
- -------------------------------|---------------|--------------|
-  6. Industriais                |     0,20      |      500     |
-
-     
- ****************************************************************/
+## Regras de Calculo
+| Tipo de Imóvel | Valor (R$/m²) | Limitador (m²) |
+| :--- | :---: | :---: |
+| Terrenos (≥ 250m²) | 0,05 | 1500 |
+| Residenciais | 0,13 | 300 |
+| Restaurantes, Mercados e similares | 0,20 | 300 |
+| Demais Comércios | 0,13 | 300 |
+| Industriais | 0,20 | 500 |
 
 
 ## Linguagem:
