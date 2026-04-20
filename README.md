@@ -20,4 +20,6 @@ A aplicação recebe o tipo de imóvel e a metragem quadrada (m²), processa a b
 
 ## ⚙️ Como executar
 1. Clone o repositório.
-2. Execute o arquivo principal `Main.java`.
+2. Abre o terminal na pasta calculadora-taxa-lixo-main/src/
+3. Execute javac Main.java para compilar
+4. Execute o arquivo principal java Main
