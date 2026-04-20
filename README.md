@@ -20,6 +20,8 @@ A aplicação recebe o tipo de imóvel e a metragem quadrada (m²), processa a b
   4. Demais Comércios           |     0,13      |      300     | 
  -------------------------------|---------------|--------------|
   5. Industriais                |     0,20      |      500     |
+
+     
  ****************************************************************/
 
 
